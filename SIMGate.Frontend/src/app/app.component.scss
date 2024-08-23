@@ -1,0 +1,43 @@
+.title{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card{
+    background: #18181b;
+    border: 1px solid #3f3f46;
+    border-radius: 6px;
+    width: 100%;
+}
+
+::ng-deep .p-splitter{
+    height: calc(100vh - 76px);
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0;
+}
+
+::ng-deep .p-splitter-gutter{
+    background-color: transparent;
+    width: 10px;
+}
+
+.sms-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat{
+    
+}
+
+.message-dock{
+    display: flex;
+    height: 80px;
+    padding: 20px;
+    gap: 10px;
+    .sms-message-field{
+        width: 100%;
+    }
+}

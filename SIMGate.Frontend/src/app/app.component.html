@@ -1,0 +1,42 @@
+<p-menubar>
+  <ng-template pTemplate="start">
+    <span class="title">SIMGate</span>
+  </ng-template>
+  <ng-template pTemplate="end">
+    <p-avatar 
+    label="P" 
+    styleClass="mr-2" 
+    size="normal" />
+  </ng-template>
+</p-menubar>
+<p-splitter 
+    [panelSizes]="[25, 75]">
+    <ng-template pTemplate>
+      <div class="card">
+        <p-scroller 
+        [items]="contacts">
+          <ng-template pTemplate="item" let-item let-options="options">
+              <p-button [outlined]="true" >
+                <p-avatar 
+                label="P" 
+                styleClass="mr-2" 
+                size="normal" />
+                <span>{{item.name}}</span>
+                <span>{{item.mobileNumber}}</span>
+              </p-button>
+          </ng-template>
+        </p-scroller>
+      </div>
+    </ng-template>
+    <ng-template pTemplate>
+      <div class="card sms-card">
+        <div class="chat">
+
+        </div>
+        <div class="message-dock">
+          <input type="text" pInputText [(ngModel)]="message" class="sms-message-field"/>
+          <p-button icon="pi pi-send" [rounded]="true" [outlined]="true" />
+        </div>
+      </div>
+    </ng-template>
+</p-splitter>
