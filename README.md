@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Pianonic/SIMGate/blob/main/Images/Icon.png?raw=true" alt="PianoNic's Music Bot" width="200"/>
+</p>
+
 # 📡 SIMGate
 
 **SIMGate** is a comprehensive solution for managing SMS messages using a SIM card connected to an Arduino. It bridges the gap between hardware and software by providing a full-stack system with a C# backend, an Angular frontend, and Arduino-based communication. 
