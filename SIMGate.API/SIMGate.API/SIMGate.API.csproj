@@ -4,10 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8f740eab-026f-41a1-bd61-4549697cf1b3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SIMGate.Domain\SIMGate.Domain.csproj" />
+    <ProjectReference Include="..\..\SIMGate.Infrastructure\SIMGate.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
