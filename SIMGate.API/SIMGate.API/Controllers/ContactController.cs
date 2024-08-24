@@ -1,5 +1,7 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using SIMGate.Domain;
+using SIMGate.Infrastructure.Queries;
 
 namespace SIMGate.API.Controllers
 {
@@ -7,10 +9,18 @@ namespace SIMGate.API.Controllers
     [Route("[controller]")]
     public class ContactController : ControllerBase
     {
-        [HttpGet]
-        public ActionResult<List<Contact>> GetAllContacts()
+        private readonly IMediator _mediator;
+
+        public ContactController(IMediator mediator)
         {
-            return Ok();
+            _mediator = mediator;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Contact>>> GetAllContacts()
+        {
+            await _mediator.Send(new GetContactsQuery());
+            return Ok(new List<Contact>());
         }
     }
 }
