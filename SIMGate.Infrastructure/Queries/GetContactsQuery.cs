@@ -9,13 +9,18 @@ namespace SIMGate.Infrastructure.Queries
 {
     public class GetContactsQuery : IRequest
     {
+        public GetContactsQuery()
+        {
+        }
     }
 
     public class GetContactsQueryHandler : IRequestHandler<GetContactsQuery>
     {
         public Task Handle(GetContactsQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Worked!");
+
+            return Task.CompletedTask;
         }
     }
 }
