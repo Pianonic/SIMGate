@@ -72,9 +72,5 @@ git clone https://github.com/yourusername/SIMGate.git
 2. **Open the Frontend**: Access the Angular app via your browser.
 3. **Manage SMS**: Use the frontend to send and receive SMS messages.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
-
 ## License 📄
 This project is licensed under the [CC BY-NC 4.0](LICENSE.md).
