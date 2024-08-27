@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Pianonic/SIMGate/blob/main/Images/Icon.png?raw=true" alt="PianoNic's Music Bot" width="500"/>
+  <img src="https://github.com/Pianonic/SIMGate/blob/main/Images/Icon.png?raw=true" alt="PianoNic's Music Bot" width="300"/>
 </p>
 
 # 📡 SIMGate
