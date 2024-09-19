@@ -8,16 +8,16 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/SIMGate.API"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
   - package-ecosystem: "nuget"
     directory: "/SIMGate.Domain"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
   - package-ecosystem: "nuget"
     directory: "/SIMGate.Infrastructure"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
   - package-ecosystem: "npm"
     directory: "/SIMGate.Frontend"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
