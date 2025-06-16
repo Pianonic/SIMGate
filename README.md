@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Pianonic/SIMGate/blob/main/Images/Icon.png?raw=true" alt="SIMGate Logo" width="300"/>
+  <img src="./Images/Icon.png" alt="SIMGate Logo" width="200"/>
 </p>
 
 <h1 align="center">SIMGate</h1>
