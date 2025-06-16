@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Images/Icon.png" alt="SIMGate Logo" width="200"/>
+  <img src="./Images/Icon.png" alt="SIMGate Logo" width="300"/>
 </p>
 
 <h1 align="center">SIMGate</h1>
