@@ -9,14 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Pianonic/SIMGate">
-    <img src="https://badgetrack.pianonic.ch/badge?url=https://github.com/Pianonic/SIMGate&label=Visitors&color=0078D4&style=flat&logo=github" alt="Visitor Count" style="vertical-align: middle;"/>
-  </a>
-  <a href="https://github.com/Pianonic/SIMGate/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-0078D4.svg" style="vertical-align: middle;"/>
-  </a>
-  <img src="https://img.shields.io/badge/C%23-Backend-0078D4.svg" style="vertical-align: middle;"/>
-  <img src="https://img.shields.io/badge/Angular-Frontend-0078D4.svg" style="vertical-align: middle;"/>
+  <a href="https://github.com/Pianonic/SIMGate"><img src="https://badgetrack.pianonic.ch/badge?url=https://github.com/Pianonic/SIMGate&label=Visitors&color=175079&style=flat&logo=github" alt="Visitor Count" style="vertical-align: middle;"/></a>
+  <a href="https://github.com/Pianonic/SIMGate/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-175079.svg" style="vertical-align: middle;"/></a>
+  <img src="https://img.shields.io/badge/C%23-Backend-175079.svg" style="vertical-align: middle;"/>
+  <img src="https://img.shields.io/badge/Angular-Frontend-175079.svg" style="vertical-align: middle;"/>
 </p>
 
 ---
