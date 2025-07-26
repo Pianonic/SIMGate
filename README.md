@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Pianonic/SIMGate"><img src="https://badgetrack.pianonic.ch/badge?tag=crop-transparent&label=visits&color=237e61&style=flat" alt="visits" /></a>
+  <a href="https://github.com/Pianonic/SIMGate"><img src="https://badgetrack.pianonic.ch/badge?tag=sim-gate&label=visits&color=175079&style=flat" alt="visits" /></a>
   <a href="https://github.com/Pianonic/SIMGate/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-175079.svg" style="vertical-align: middle;"/></a>
   <img src="https://img.shields.io/badge/C%23-Backend-175079.svg" style="vertical-align: middle;"/>
   <img src="https://img.shields.io/badge/Angular-Frontend-175079.svg" style="vertical-align: middle;"/>
